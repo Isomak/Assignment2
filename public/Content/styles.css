@@ -1,0 +1,109 @@
+
+body{
+    background: linear-gradient(to right, rgb(224, 255, 238), rgb(255, 187, 187));
+}
+
+
+.text a{
+    color: rgb(255, 255, 255);  /* changes color*/ 
+    align-items: center;   /* centers text*/ 
+    justify-content: space-between;  /* adjusts text */ 
+    padding: 3px 100;  /* fixes padding */ 
+    margin: 0 30px;  /* adjusts margin */ 
+    text-decoration: underline;  /* underlines the text */ 
+}
+
+.content-inner{
+    text-align: center;  /*centers text */ 
+    display: flex;  /*adjusts positioning */ 
+    justify-content: center; /* This makes the text go to the center of my screen, in general. not just the middle*/
+    align-items: end; /* This makes the text go to the center of my screen, but vetrically*/
+    height:400px;  /*adjusts height of text*/ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  /*font family */ 
+}
+.content-under{
+    text-align: center;
+    display: flex;
+    justify-content: center; /* This makes the text go to the center of my screen*/
+    align-items: normal; /* This makes the text go to the center of my screen, but vetrically*/
+    height:370px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  /*font family in case something breaks */ 
+}
+.About-Inner{
+        text-align: center;
+        justify-content: center; /* This makes the text go to the center of my screen*/
+        align-items: end; /* This makes the text go to the center of my screen, but vetrically*/
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  /*font family in case something breaks */ 
+}
+.footer{ 
+    background-color: #1f1f1f;      /* color change */ 
+    text-align: center;      /* fixes how the copyright text looks */ 
+    display: flex;       /* display fixing */ 
+    width: 84%;  /* width of footer */ 
+    padding: 0 8%;  /* adjusts footer padding */ 
+    position: static;  /* makes sure the footer is at the bottom of the screen */ 
+    align-items: center;  /* centers */ 
+    justify-content: space-between;  /* makes sure there is a large space in the middle */ 
+    font-size: 100%;  /* font size */ 
+    color:rgb(255, 255, 255);  /* color */ 
+    bottom: 0px;  /* backup footer positioner */ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}        
+
+.links{
+         text-decoration: none;   /* makes sure none of the links have a weird color change. */ 
+         font-size: small;
+}
+
+.links:hover{
+    color: rgb(180, 180, 180);  /* hovering over links will change color */ 
+}
+
+    .navbar{ 
+        background-color: #1f1f1f;    /* Changes background color  */ 
+        text-align: center;      /*Aligns the text correctly */ 
+        width: 84%;  /* width of the actual black box */ 
+        padding: 0 8%;  /* adjusts the padding*/ 
+        align-items: center;  /* Allows the text to stay in the center of the box */ 
+        justify-content: space-between;  /* moves the home, about, contact and project page to the right */ 
+        font-size: 100%;  /* font size */ 
+        color:rgb(255, 255, 255);  /*changes color of text */ 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  /*font family in case anything breaks */ 
+    }        
+
+#programs a{
+    background-color: rgb(211, 233, 236);
+    white-space: pre-wrap;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 20px; 
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  /*font family in case anything breaks */ 
+    }
+
+#form{
+    background-color: rgba(198, 223, 255, 0.301);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 20px; 
+    display: flex;
+    justify-content: center; /* This makes the text go to the center of my screen, in general. not just the middle*/
+   
+}
+
+.ATM{
+    text-align: center;
+}
+
+.Guess{
+    text-align: center; 
+}
+
+.Calc{
+    text-align: center;
+}
+
+.Sum{
+    text-align: center;
+}
